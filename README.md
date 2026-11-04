@@ -20,6 +20,10 @@ conda create -n 16s_pipeline -c bioconda -c conda-forge barrnap bedtools "blast>
 conda activate 16s_pipeline
 ```
 *(Note: We specify BLAST >= 2.14.0 to avoid integer overflow issues with modern NCBI databases).*
+Clone the repository.
+```bash
+git clone https://github.com/BenMinch/quicbac
+```
 
 ## Database Setup
 
