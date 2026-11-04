@@ -3,6 +3,7 @@
 A streamlined Python pipeline designed to identify, extract, and taxonomically classify 16S rRNA genes from metagenomic assemblies. 
 
 The tool uses `barrnap` to locate rRNA genes, `bedtools` to extract the 16S sequences, and `blastn` against the NCBI 16S RefSeq database to assign taxonomy. Finally, it uses the NCBI Entrez API to resolve the full lineage (Phylum, Class, Order, Family) and generates publication-ready stacked bar charts of the taxonomic composition.
+<img width="2752" height="1536" alt="Gemini_Generated_Image_hkvpfjhkvpfjhkvp" src="https://github.com/user-attachments/assets/4ab1cc2c-aee0-49e0-8962-9d0e7ea724d9" />
 
 ## Features
 * **Automated Extraction:** Finds and extracts full and partial 16S sequences directly from your assembly FASTA.
