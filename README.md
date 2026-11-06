@@ -34,7 +34,7 @@ Before running the pipeline for the first time, you must download the NCBI 16S r
 ```bash
 mkdir -p ~/blastdb
 cd ~/blastdb
-update_blastdb.pl --decompress 16S_ribosomal_RNA taxdb
+update_blastdb.pl --source aws --decompress 16S_ribosomal_RNA taxdb
 ```
 
 ## Usage
